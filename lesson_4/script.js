@@ -61,13 +61,3 @@ let anotherNews = new News(
 anotherNews.print();
 
 
-
-// let a = Object.create(news);
-// a.title = "Hello world";
-// a.text = "Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum";
-// a.tags.push("firstNews", "coolNews", "news");
-// a.date = new Date("2020-11-11");
-//
-// a.print();
-
-
