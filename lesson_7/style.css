@@ -1,0 +1,33 @@
+.container {
+    width: 500px;
+    height: 300px;
+    margin: 100px auto;
+    border: 1px solid #a2a8d3;
+    background: #fdffcd;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 48px 24px;
+}
+.title {
+    color: #132743;
+    font-weight:  bold;
+    margin-bottom: 36px;
+    text-transform: uppercase;
+}
+.number-container {
+    padding: 36px;
+    font-size: 36px;
+    margin-bottom: 36px;
+    color: #132743;
+}
+.bttn-create {
+    padding: 16px;
+    background: #9fd3c7;
+    color: #132743;
+    border-color: #e7eaf6;
+    text-transform: uppercase;
+}
+.bttn-create:hover {
+    cursor: pointer;
+}

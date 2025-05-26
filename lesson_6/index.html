@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<div id="container">
+  <p id="first">first p</p>
+  <p id="second">second p</p>
+  <p id="third">third p</p>
+</div>
+
+<script>
+  const container = document.getElementById('container');
+  const thirdParagraph = document.getElementById('third');
+
+  console.log(container.childNodes);
+  console.log(thirdParagraph.parentNode);
+  console.log(thirdParagraph.innerText);
+  console.log(container.firstChild);
+  console.log(container.lastChild);
+  console.log(thirdParagraph.nextSibling);
+
+
+</script>
+
+</body>
+</html>
